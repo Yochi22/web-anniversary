@@ -1,9 +1,24 @@
-import React from 'react'
+// Cancion.jsx
+import React from 'react';
+import '../styles/Cancion.css';
+import { NavbarComponent} from './NavbarComponent'
 
-function Cancion() {
+const Cancion = () => {
   return (
-    <div>Cancion</div>
-  )
-}
+    <div className='cancion-principal'>
+      <NavbarComponent />
+    <div className="cancion-container">
+      <div className="column-container">
+        <h3 className='texto-cancion'>Aquí dejaré una canción para ti todos los 10 de cada mes.</h3>
+      </div>
+      <div className="column-container">
+        {/* Reproductor de canciones con un enlace de ejemplo */}
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/MP99Q3bIH6c?si=aWez38b5TQxCkUaK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      </div>
+    </div>
+  );
+};
 
-export default Cancion
+export default Cancion;
+

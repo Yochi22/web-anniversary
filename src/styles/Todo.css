@@ -1,0 +1,44 @@
+.principal {
+    background: url('../assets/luna.jpg') center/cover no-repeat;
+    height: 100vh;
+    width: 98.7vw;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    justify-content: center;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .text-principal {
+    font-weight: 100;
+    color: white;
+    max-width: 100%; /* Ajusta el ancho máximo */
+  }
+  
+  .texto-todo {
+    font-size: medium;
+  }
+  
+  .todo-container {
+    color: white;
+    max-width: 100%; /* Ajusta el ancho máximo */
+  }
+  
+  @media screen and (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .principal {
+      padding: 30px;
+      width: 96.5vw;
+   }
+  }
+  

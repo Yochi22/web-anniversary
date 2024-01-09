@@ -1,7 +1,7 @@
 .principal {
     background: url('../assets/luna.jpg') center/cover no-repeat;
     height: 100vh;
-    width: 98.7vw;
+    width: 100vw;
     display: flex;
     align-items: center;
     padding: 30px;

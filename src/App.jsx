@@ -1,4 +1,4 @@
-import{ Routes, Route } from 'react-router-dom'
+import{ Routes, Route, BrowserRouter } from 'react-router-dom'
 import { React, useState } from 'react'
 
 import Home from "./components/Home.jsx";
@@ -13,6 +13,7 @@ function App() {
 
   return (
     <>
+    <BrowserRouter>
   <Routes>
     <Route path='/' element={<Home/>}/>
     <Route path='/timeline' element={<Calendario/>}/>
@@ -20,6 +21,7 @@ function App() {
     <Route path='/cancion' element={<Cancion />}/>
     <Route path='/celebrate' element={<CelebrateComponent />}/>
   </Routes>
+  </BrowserRouter>
     </>
   )
 }

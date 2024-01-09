@@ -53,7 +53,7 @@ function Calendario() {
     icon={<GiLoveMystery />}
   >
     <h3 className="vertical-timeline-element-title">Me dijiste "te quiero" por primera vez</h3>
-    <p className="vertical-timeline-element-subtitle">Antes de subirme al avión me dijiste que me quieres por primera vez. Estabas muy nervioso y eliminaste el mensaje</p>
+    <p className="vertical-timeline-element-subtitle">Antes de subirme al avión me dijiste que me quieres por primera vez. Estabas muy nerviosa y eliminaste el mensaje</p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
@@ -95,7 +95,7 @@ function Calendario() {
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
     icon={<FaBeer />}
   >
-    <h3 className="vertical-timeline-element-title">"¿Pued?"</h3>
+    <h3 className="vertical-timeline-element-title">"¿Puedo tener tu cuerpo hoy?"</h3>
     <p className="vertical-timeline-element-subtitle">Creo que esto no necesita mucha explicación. Desde ese momento no deseo otra cosa</p>
   </VerticalTimelineElement>
   <VerticalTimelineElement

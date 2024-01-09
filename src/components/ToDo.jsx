@@ -89,7 +89,7 @@ const ToDoList = () => {
     <div className='grid-container'>
           <div className='todo-container'>
             <div className='column'>
-            <h4 className='texto-todo'>Aquí podemos tener una lista de todas las cosas que queremos hacer juntos e ir marcando como completadas las que hayamos hecho</h4>
+            <h4 className='texto-todo'>Aquí podemos tener una lista de todas las cosas que queremos hacer juntas e ir marcando como completadas las que hayamos hecho</h4>
               <h2>Planes</h2>
               <div className='mb-3'>
                 <input

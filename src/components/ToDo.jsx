@@ -50,6 +50,12 @@ const ToDoList = () => {
     }
   };
 
+  const handleKeyPress = (event) => {
+    if (event.key === 'Enter') {
+      handleCreateTask();
+    }
+  };
+
   // Paginación
   const indexOfLastTask = currentPage * tasksPerPage;
   const indexOfFirstTask = indexOfLastTask - tasksPerPage;
@@ -92,6 +98,7 @@ const ToDoList = () => {
                   placeholder='¿Qué quieres hacer?'
                   value={newTask}
                   onChange={(e) => setNewTask(e.target.value)}
+                  onKeyDown={handleKeyPress}
                 />
                 <button className='btn btn-primary mt-2' onClick={handleCreateTask}>
                   Crear

@@ -1,4 +1,4 @@
-import{ Routes, Route, BrowserRouter } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import { React, useState } from 'react'
 
 import Home from "./components/Home.jsx";
@@ -9,19 +9,18 @@ import CelebrateComponent from './components/CelebrateComponent.jsx';
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-    <BrowserRouter>
-  <Routes>
-    <Route path='/' element={<Home/>}/>
-    <Route path='/timeline' element={<Calendario/>}/>
-    <Route path='/todolist' element={<ToDo />}/>
-    <Route path='/cancion' element={<Cancion />}/>
-    <Route path='/celebrate' element={<CelebrateComponent />}/>
-  </Routes>
-  </BrowserRouter>
+   <Router>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/timeline' element={<Calendario />} />
+        <Route path='/todolist' element={<ToDo />} />
+        <Route path='/cancion' element={<Cancion />} />
+        <Route path='/celebrate' element={<CelebrateComponent />} />
+      </Routes>
+    </Router>
     </>
   )
 }

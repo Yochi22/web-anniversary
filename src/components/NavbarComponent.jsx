@@ -12,9 +12,9 @@ export function NavbarComponent() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav>
-            <Nav.Link href="/timeline">Timeline</Nav.Link>
-            <Nav.Link href="/cancion">Canción del mes</Nav.Link>
-            <Nav.Link eventKey={2} href="/todolist">
+            <Nav.Link href="#timeline">Timeline</Nav.Link>
+            <Nav.Link href="#cancion">Canción del mes</Nav.Link>
+            <Nav.Link eventKey={2} href="#todolist">
               To Do List
             </Nav.Link>
           </Nav>

@@ -26,7 +26,7 @@ const ToDoList = () => {
     try {
       await axios.post('https://apitodoamor.onrender.com/tasks', { title: newTask, completed: false });
       fetchTasks();
-      setNewTask(''); // Limpiar el input
+      setNewTask('');
     } catch (error) {
       console.error('Error creating task:', error);
     }
@@ -43,7 +43,7 @@ const ToDoList = () => {
 
   const handleDeleteTask = async (taskId) => {
     try {
-      await axios.delete(`https://apitodoamor.onrender.com/tasks/${taskId}`); // Reemplaza con la URL de tu backend
+      await axios.delete(`https://apitodoamor.onrender.com/tasks/${taskId}`); 
       fetchTasks();
     } catch (error) {
       console.error('Error deleting task:', error);

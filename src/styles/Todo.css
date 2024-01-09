@@ -25,6 +25,29 @@
   .texto-todo {
     font-size: medium;
   }
+
+  .list-group-item {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .task-content {
+    display: flex;
+    flex-direction: column; /* Cambiado a columna por defecto */
+  }
+  
+  .task-title {
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  
+  .task-buttons {
+    margin-top: 10px; /* Agrega un espacio entre la tarea y los botones */
+  }
+  
   
   .todo-container {
     color: white;
@@ -38,7 +61,7 @@
   
     .principal {
       padding: 30px;
-      width: 96.5vw;
+      width: 100vw;
    }
   }
   

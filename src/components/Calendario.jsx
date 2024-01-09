@@ -19,7 +19,7 @@ function Calendario() {
     <div className='principal-timeline'>
       <NavbarComponent />
       <br /> <br /> <br />
-      <h2 className='title-timeline'>Alguno momentos que alteraron la química de mi cerebro</h2>
+      <h2 className='title-timeline'>Algunos momentos que alteraron la química de mi cerebro</h2>
      <VerticalTimeline>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
@@ -116,7 +116,7 @@ function Calendario() {
     icon={<RiCellphoneFill />}
   >
     <h3 className="vertical-timeline-element-title">El día que hablamos por primera vez</h3>
-    <p className="vertical-timeline-element-subtitle">Escuchar tu voz mientras me contabas sobre las bombas lacrimógenas</p>
+    <p className="vertical-timeline-element-subtitle">Necesitaba seguir conociéndote.</p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}

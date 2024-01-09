@@ -19,7 +19,7 @@
   .text-principal {
     font-weight: 100;
     color: white;
-    max-width: 100%; /* Ajusta el ancho máximo */
+    max-width: 100%; 
   }
   
   .texto-todo {
@@ -28,7 +28,7 @@
   
   .todo-container {
     color: white;
-    max-width: 100%; /* Ajusta el ancho máximo */
+    max-width: 100%; 
   }
   
   @media screen and (max-width: 768px) {

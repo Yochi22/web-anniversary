@@ -4,14 +4,19 @@
     color: #3498db;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.navbar{
+.navbar {
     background-color: white !important;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
 }
 
 .nav-link {
     color: rgb(0, 0, 0) !important;
     font-weight: bold;
+    margin: 0 15px; 
 }
+
 .nav-link:hover {
     color: #3498db !important;
     font-weight: bold;

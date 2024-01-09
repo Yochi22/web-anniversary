@@ -10,7 +10,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('../assets/luna.jpg') center/cover no-repeat; /* Reemplaza 'ruta/imagen-fondo.jpg' con la ruta correcta de tu imagen de fondo */
+    background: url('../assets/luna.jpg') center/cover no-repeat; 
   }
   
   .content {
@@ -19,19 +19,19 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: #fff; /* Cambia el color del texto según tu diseño */
+    color: #fff; 
   }
   
   button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #3498db; /* Cambia el color del botón según tu diseño */
+    background-color: #3498db; 
     color: #fff;
     border: none;
     cursor: pointer;
   }
 
   button:hover {
-    background-color: #153b55; /* Cambia el color del botón según tu diseño */
+    background-color: #153b55; 
 
   }

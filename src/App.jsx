@@ -15,7 +15,7 @@ function App() {
     <>
   <Routes>
     <Route path='/' element={<Home/>}/>
-    <Route path='/calendario' element={<Calendario/>}/>
+    <Route path='/timeline' element={<Calendario/>}/>
     <Route path='/todolist' element={<ToDo />}/>
     <Route path='/cancion' element={<Cancion />}/>
     <Route path='/celebrate' element={<CelebrateComponent />}/>

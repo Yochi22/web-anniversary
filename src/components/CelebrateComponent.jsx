@@ -9,7 +9,7 @@ import { useNavigate } from 'react-router-dom';
 const CelebrateComponent = () => {
   const navigate = useNavigate();
   const handleYesClick = () => {
-    navigate('/todolist')
+    navigate('/timeline')
   };
 
   const handleNoClick = () => {

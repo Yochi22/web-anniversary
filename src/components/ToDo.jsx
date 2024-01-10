@@ -67,7 +67,7 @@ const ToDoList = () => {
         <div className="task-buttons">
           {!task.completed && (
             <button className='btn btn-success btn-sm' onClick={() => handleCompleteTask(task._id)}>
-              Completar
+              Hecho
             </button>
           )}
           <button className='btn btn-danger btn-sm' onClick={() => handleDeleteTask(task._id)}>

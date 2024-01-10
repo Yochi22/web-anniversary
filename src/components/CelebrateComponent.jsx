@@ -1,5 +1,3 @@
-// CelebrateComponent.js
-
 import React from 'react';
 import Swal from 'sweetalert2';
 import 'sweetalert2/dist/sweetalert2.min.css';
@@ -8,12 +6,21 @@ import { useNavigate } from 'react-router-dom';
 
 const CelebrateComponent = () => {
   const navigate = useNavigate();
+
   const handleYesClick = () => {
-    navigate('/timeline')
+    Swal.fire({
+      icon: 'success',
+      title: 'Opción correcta',
+      text: 'Yo también quiero seguir celebrando contigo esta y todas las fechas importantes. Te amo con mi alma',
+      showConfirmButton: false,
+      timer: 4800, 
+      willClose: () => {
+        navigate('/timeline');
+      },
+    });
   };
 
   const handleNoClick = () => {
-  
     Swal.fire({
       icon: 'error',
       title: 'Opción Incorrecta',
